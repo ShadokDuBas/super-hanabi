@@ -8,15 +8,16 @@ Ces rôles et ces règles sont encore au stade de α-test.
 
 Un rôle représente un super héros et contient 4 informations:
 
-| champ  | signification                                              |
-| ---    | ---                                                        |
-| name   | le nom du rôle                                             |
-| reveal | un effet spécial qui se déclenche quand le rôle est révélé |
-| power  | un pouvoir spécial accordé au personnage                   |
-| respo  | une responsabilité est une mission à la *the crew*         |
-|        | ou un handicap à la *detrimental characters*.              |
-|        | autrement dit, c’est une contrainte.                       |
-|        | Pour gagner, il faut respecter toutes les contraintes.     |
+| champ      | signification                                               |
+| ---        | ---                                                         |
+| name       | le nom du rôle                                              |
+| reveal     | un effet spécial qui se déclenche quand le rôle est révélé  |
+| power      | un pouvoir spécial accordé au personnage                    |
+| respo      | une responsabilité est une mission à la *the crew*          |
+|            | ou un handicap à la *detrimental characters*.               |
+|            | autrement dit, c’est une contrainte.                        |
+|            | Pour gagner, il faut respecter toutes les contraintes.      |
+| discussion | *meta* :Les commentaires sur l’équilibrage du jeu éventuels |
 
 ### Rôles quantiques
 

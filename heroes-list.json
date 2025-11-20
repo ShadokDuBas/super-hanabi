@@ -4,6 +4,7 @@
     "reveal": "-",
     "power": "Je peux jouer des cartes depuis la défausse",
     "respo": "À la fin de la partie, j’ai défaussé plus de carte que\ntout le reste de l’équipe réuni.",
+    "discussion": "-",
     "id": 0
   },
   {
@@ -11,6 +12,7 @@
     "reveal": "On gagne un jeton indice.",
     "power": "-",
     "respo": "Une fois dans la partie, je donne deux indices consécutifs\n(pendant un tour de table, personne ne donne d’indice à part moi).",
+    "discussion": "-",
     "id": 1
   },
   {
@@ -18,6 +20,7 @@
     "reveal": "Je pioche trois cartes.",
     "power": "Quand je joue ou défausse, je ne pioche pas de carte.",
     "respo": "-",
+    "discussion": "-",
     "id": 2
   },
   {
@@ -25,6 +28,7 @@
     "reveal": "Je défausse ma main (on ne regagne pas d’indices).",
     "power": "Quand je donne un indice, on gagne un jeton indice\nau lieu d’en payer un.",
     "respo": "-",
+    "discussion": "-",
     "id": 3
   },
   {
@@ -32,6 +36,7 @@
     "reveal": "Je joue une carte de ma main.",
     "power": "-",
     "respo": "-",
+    "discussion": "-",
     "id": 4
   },
   {
@@ -39,6 +44,7 @@
     "reveal": "-",
     "power": "Je peux regarder ma main, et me donner des indices.",
     "respo": "Je joue uniquement des cartes qui ont été touchées par des indices.",
+    "discussion": "-",
     "id": 5
   },
   {
@@ -46,6 +52,7 @@
     "reveal": "Je regarde le bas de la pioche jusqu’à trouver un 1.\nJe dois jouer ce 1. Je mélange ensuite la pioche.",
     "power": "Je peux donner l’indice \"beaucoup\" qui touche\nles 3, 4 et 5.",
     "respo": "Je ne donne pas d’indice de 3, 4 ou 5.",
+    "discussion": "-",
     "id": 6
   },
   {
@@ -53,6 +60,7 @@
     "reveal": "Je joue une carte. Si ce n’est pas un 1, elle est bombée.",
     "power": "Je peux quacker.",
     "respo": "Je ne donne pas d’autres indices que quack.",
+    "discussion": "-",
     "id": 7
   },
   {
@@ -60,6 +68,7 @@
     "reveal": "Pour chaque jeton indice déjà dépensé, je dépense un jeton supplémentaire\nou on obtient un jeton bombe.",
     "power": "Quand je défausse une carte, on regagne deux jetons indices.",
     "respo": "Mes deux voisin·es et moi défaussons nos cartes face cachée.",
+    "discussion": "-",
     "id": 8
   },
   {
@@ -67,6 +76,7 @@
     "reveal": "On obtient deux jetons bombe.",
     "power": "Je peux donner des indices en remettant un jeton bombe dans la boîte\nplutôt qu’en dépensant un indice.",
     "respo": "Ma·on voisin·e de droite ne défausse pas.",
+    "discussion": "-",
     "id": 9
   },
   {
@@ -74,6 +84,7 @@
     "reveal": "-",
     "power": "Je peux jouer les cartes vertes sur la pile rouge, et inversement.",
     "respo": "Je joue au moins une carte sur la pile verte, et une sur la pile rouge.",
+    "discussion": "-",
     "id": 10
   }
 ]
