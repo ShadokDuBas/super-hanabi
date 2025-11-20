@@ -33,5 +33,12 @@
     "power": "-",
     "respo": "-",
     "id": 4
+  },
+  {
+    "name": "Le prophète",
+    "reveal": "-",
+    "power": "Je peux regarder ma main, et me donner des indices.",
+    "respo": "Je joue uniquement des cartes qui ont été touchées par des indices.",
+    "id": 5
   }
 ]
