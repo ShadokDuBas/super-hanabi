@@ -136,7 +136,7 @@ def "main reindex" [
 
 # Functions to help with the json
 # Requires gum, fzf, and vipe (moreutils) to work
-# prints the table
+# *ATTENTION* not designed to accomodate multiple modidication in parallel
 def main [] {
   get-heroes
 }
