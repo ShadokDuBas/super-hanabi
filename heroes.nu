@@ -104,6 +104,7 @@ def "main edit" [
   }
 }
 
+# Add a new hero to the json file
 def "main add" [
 ] {
   let heroes = get-heroes
@@ -133,6 +134,8 @@ def "main reindex" [
   | save-heroes
 }
 
+# Functions to help with the json
+# Requires gum, fzf, and vipe (moreutils) to work
 # prints the table
 def main [] {
   get-heroes
