@@ -40,5 +40,40 @@
     "power": "Je peux regarder ma main, et me donner des indices.",
     "respo": "Je joue uniquement des cartes qui ont été touchées par des indices.",
     "id": 5
+  },
+  {
+    "name": "Le berserker",
+    "reveal": "Je regarde le bas de la pioche jusqu’à trouver un 1.\nJe dois jouer ce 1. Je mélange ensuite la pioche.",
+    "power": "Je peux donner l’indice \"beaucoup\" qui touche\nles 3, 4 et 5.",
+    "respo": "Je ne donne pas d’indice de 3, 4 ou 5.",
+    "id": 6
+  },
+  {
+    "name": "Le canard",
+    "reveal": "Je joue une carte. Si ce n’est pas un 1, elle est bombée.",
+    "power": "Je peux quacker.",
+    "respo": "Je ne donne pas d’autres indices que quack.",
+    "id": 7
+  },
+  {
+    "name": "Le pestiféré",
+    "reveal": "Pour chaque jeton indice déjà dépensé, je dépense un jeton supplémentaire\nou on obtient un jeton bombe.",
+    "power": "Quand je défausse une carte, on regagne deux jetons indices.",
+    "respo": "Mes deux voisin·es et moi défaussons nos cartes face cachée.",
+    "id": 8
+  },
+  {
+    "name": "Le gorille",
+    "reveal": "On obtient deux jetons bombe.",
+    "power": "Je peux donner des indices en remettant un jeton bombe dans la boîte\nplutôt qu’en dépensant un indice.",
+    "respo": "Ma·on voisin·e de droite ne défausse pas.",
+    "id": 9
+  },
+  {
+    "name": "Le daltonien",
+    "reveal": "-",
+    "power": "Je peux jouer les cartes vertes sur la pile rouge, et inversement.",
+    "respo": "Je joue au moins une carte sur la pile verte, et une sur la pile rouge.",
+    "id": 10
   }
 ]
