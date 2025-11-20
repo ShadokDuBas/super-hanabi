@@ -85,7 +85,7 @@ def edit-hero [] {
   | insert id $id
 }
 
-#Add a new record to the table in $file
+# Edit a record in the json table
 def "main edit" [
 ] {
   let heroes = get-heroes
@@ -124,7 +124,7 @@ def "main add" [
   }
 }
 
-# Updates the `id` record of the table to ensure uniqueness 
+# Updates the `id` records of the table to ensure uniqueness 
 def "main reindex" [
 ] {
   let table = get-heroes;
