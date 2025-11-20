@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Le raton",
+    "reveal": "-",
+    "power": "Je peux jouer des cartes depuis la défausse",
+    "respo": "À la fin de la partie, j’ai défaussé plus de carte que\ntout le reste de l’équipe réuni.",
+    "id": 0
+  },
+  {
+    "name": "Le faiseur de silence",
+    "reveal": "On gagne un jeton indice.",
+    "power": "-",
+    "respo": "Une fois dans la partie, je donne deux indices consécutifs\n(pendant un tour de table, personne ne donne d’indice à part moi).",
+    "id": 1
+  },
+  {
+    "name": "Le survivaliste",
+    "reveal": "Je pioche trois cartes.",
+    "power": "Quand je joue ou défausse, je ne pioche pas de carte.",
+    "respo": "-",
+    "id": 2
+  },
+  {
+    "name": "La supernova",
+    "reveal": "Je défausse ma main (on ne regagne pas d’indices).",
+    "power": "Quand je donne un indice, on gagne un jeton indice\nau lieu d’en payer un.",
+    "respo": "-",
+    "id": 3
+  },
+  {
+    "name": "Le villageois",
+    "reveal": "Je joue une carte de ma main.",
+    "power": "-",
+    "respo": "-",
+    "id": 4
+  }
+]
