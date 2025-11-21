@@ -134,6 +134,23 @@ def "main reindex" [
   | save-heroes
 }
 
+# Prints the table of each of the heroes
+def "main print" [
+  --all (-a) # prints all heroes
+] {
+  let table = get-heroes;
+  if $all {
+    $table 
+    | each {|x| $x | table | print}
+  } else {
+    let index = ($table | select-hero)
+    $table
+    | get $index
+    | table
+    | print
+  }
+}
+
 # Functions to help with the json
 # Requires gum, fzf, and vipe (moreutils) to work
 # *ATTENTION* not designed to accomodate multiple modidication in parallel
