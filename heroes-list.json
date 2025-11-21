@@ -2,8 +2,8 @@
   {
     "name": "Le raton",
     "reveal": "-",
-    "power": "Je peux jouer des cartes depuis la défausse",
-    "respo": "À la fin de la partie, j’ai défaussé plus de carte que\ntout le reste de l’équipe réuni.",
+    "power": "Je peux jouer des cartes depuis la défausse, si je le fais je défausse la\npremière carte de la pioche.",
+    "respo": "Je ne joue pas de carte de ma main.",
     "discussion": "-",
     "id": 0
   },
@@ -35,16 +35,16 @@
     "name": "Le villageois",
     "reveal": "Je joue une carte de ma main.",
     "power": "-",
-    "respo": "-",
-    "discussion": "Trop puissant ?",
+    "respo": "À la fin de la partie, je ne suis aucun autre personnage.",
+    "discussion": "Trop puissant ? Nerfé avec la responsabilités, à voir si ça suffit.",
     "id": 4
   },
   {
-    "name": "Le prophète",
+    "name": "La projection astrale",
     "reveal": "-",
     "power": "Je peux regarder ma main, et me donner des indices.",
     "respo": "Je joue uniquement des cartes qui ont été touchées par des indices.",
-    "discussion": "-",
+    "discussion": "Si c’est trop fort, on interdit aussi de défausser des cartes non-touchées",
     "id": 5
   },
   {
@@ -57,8 +57,8 @@
   },
   {
     "name": "Le canard",
-    "reveal": "Je joue une carte. Si ce n’est pas un 1, elle est bombée.",
-    "power": "Je peux quacker.",
+    "reveal": "-",
+    "power": "Je peux quacker, et cela ne coûte pas de jeton indice.",
     "respo": "Je ne donne pas d’autres indices que quack.",
     "discussion": "-",
     "id": 7
@@ -86,5 +86,29 @@
     "respo": "Je joue au moins une carte sur la pile verte, et une sur la pile rouge.",
     "discussion": "-",
     "id": 10
+  },
+  {
+    "name": "La pieuvre",
+    "reveal": "-",
+    "power": "Quand je donne des indices, je touche les mains de tous les autres joueurs",
+    "respo": "-",
+    "discussion": "(Faire en sorte qu’il soit atttribué tôt?)",
+    "id": 11
+  },
+  {
+    "name": "Le taureau",
+    "reveal": "J’indique les cartes rouges de tous les autres joueurs.",
+    "power": "À chaque fois qu’une carte rouge est jouée, je dois immédiatement\njouer ou défausser une carte.",
+    "respo": "-",
+    "discussion": "-",
+    "id": 12
+  },
+  {
+    "name": "La dyslexique",
+    "reveal": "-",
+    "power": "Je peux jouer les 5 comme des 2, et inversement.",
+    "respo": "Je joue au moins une carte comme un 2, et une carte comme un 5.",
+    "discussion": "-",
+    "id": 13
   }
 ]
