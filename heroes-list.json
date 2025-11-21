@@ -110,5 +110,13 @@
     "respo": "Je joue au moins une carte comme un 2, et une carte comme un 5.",
     "discussion": "-",
     "id": 13
+  },
+  {
+    "name": "La pythie",
+    "reveal": "Je regarde les deux cartes du dessous de la pioche.",
+    "power": "-",
+    "respo": "Je donne pas d’indice qui touche les copies des cartes que j’ai vues\nen bas de la pioche.",
+    "discussion": "Ou bien \"je ne donne pas d’indices qui toucheraient une des cartes du bottom\ndeck\"?",
+    "id": 14
   }
 ]
