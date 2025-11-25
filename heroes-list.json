@@ -118,5 +118,13 @@
     "respo": "Je donne pas d’indice qui touche les copies des cartes que j’ai vues\nen bas de la pioche.",
     "discussion": "Ou bien \"je ne donne pas d’indices qui toucheraient une des cartes du bottom\ndeck\"?",
     "id": 14
+  },
+  {
+    "name": "Le marionetiste",
+    "reveal": "-",
+    "power": "Je peux jouer ou défausser des cartes depuis les mains de mes voisins.",
+    "respo": "Je ne regarde pas les mains de mes voisins, je ne considère plus mes voisins\ncomme des autres joueurs.",
+    "discussion": "-",
+    "id": 15
   }
 ]
