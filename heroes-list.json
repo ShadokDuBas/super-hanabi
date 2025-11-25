@@ -16,10 +16,10 @@
     "id": 1
   },
   {
-    "name": "Le survivaliste",
+    "name": "La survivaliste",
     "reveal": "Je pioche trois cartes.",
     "power": "Quand je joue ou défausse, je ne pioche pas de carte.",
-    "respo": "-",
+    "respo": "Si je n’ai plus de carte en main, la partie est immédiatement perdue.",
     "discussion": "-",
     "id": 2
   },
