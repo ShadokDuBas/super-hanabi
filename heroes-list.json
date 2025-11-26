@@ -126,5 +126,13 @@
     "respo": "Je ne regarde pas les mains de mes voisins, je ne considère plus mes voisins\ncomme des autres joueurs.",
     "discussion": "-",
     "id": 15
+  },
+  {
+    "name": "La télékinesiste",
+    "reveal": "-",
+    "power": "Au début de mon tour, je peux réordonner la main de mon voisin de gauche.",
+    "respo": "Mon voisin de gauche ne défausse pas.",
+    "discussion": "-",
+    "id": 16
   }
 ]
