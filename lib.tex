@@ -1,0 +1,44 @@
+\usepackage{svg}
+\usepackage{tikz}
+
+\newcounter{nocarte}
+\newcommand{\carte}[4]{%
+\stepcounter{nocarte}%
+\expandafter\def\csname carte\roman{nocarte}\endcsname{%
+\begin{tikzpicture}
+  \node[] (botleft) at (0,0) {};
+  \node[] (botright) at (63mm,0) {};
+  \node[] (topright) at (63mm,88mm) {};
+  \node[] (topleft) at (0,88mm) {};
+  \node[text width=5cm, align=flush center, anchor=north] 
+  (title) at (31.5mm, 80mm) {\huge #1};
+  \node[text width=5.5cm, align=justify, anchor=north]
+  (reveal) at ([yshift=-6mm]title.south) {\textbf{Révélation:} #2};
+  \node[text width=5.5cm, align=justify, anchor=north]
+  (power) at ([yshift=-2mm]reveal.south) {\textbf{Pouvoir:} #3};
+  \node[text width=5.5cm, align=justify, anchor=north]
+  (respo) at ([yshift=-2mm]power.south) {\textbf{Responsabilité:} #4};
+  \draw (botleft.center) -- (botright.center) -- (topright.center) --
+  (topleft.center) -- (botleft.center);
+\end{tikzpicture}%
+}}
+
+\newcounter{nocarteprint}
+\def\placerCarte#1{%
+\stepcounter{nocarteprint}
+\node at (#1) {\csname carte\roman{nocarteprint}\endcsname};
+}
+\def\placerPage{%
+\centerline{%
+\begin{tikzpicture}
+\placerCarte{0,0}
+\placerCarte{6.7,0}
+\placerCarte{13.4,0}
+\placerCarte{0,9}
+\placerCarte{6.7,9}
+\placerCarte{13.4,9}
+\placerCarte{0,18}
+\placerCarte{6.7,18}
+\placerCarte{13.4,18}
+\end{tikzpicture}}}
+
