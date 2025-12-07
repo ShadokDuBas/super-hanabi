@@ -85,6 +85,11 @@ def edit-hero [] {
   | insert id $id
 }
 
+def hero-to-latex [] {
+  let hero = $in
+  $"\\carte\{($hero.name)\}\{($hero.reveal)\}\{($hero.power)\}\{($hero.respo)\}"
+}
+
 # Edit a record in the json table
 def "main edit" [
 ] {
@@ -134,8 +139,8 @@ def "main reindex" [
   | save-heroes
 }
 
-# Prints the table of each of the heroes
-def "main print" [
+# shows the table of each of the heroes
+def "main show" [
   --all (-a) # prints all heroes
 ] {
   let table = get-heroes;
@@ -150,6 +155,20 @@ def "main print" [
     | print
   }
 }
+
+# prints the cards
+def "main print-latex" [
+  --compile # compile the latex
+  --clean # clean the compilation
+] {
+  get-heroes
+  | each { hero-to-latex }
+  | str join "\n"
+  | save -f cartes.tex;
+  if $compile {latexmk -pdf main.tex};
+  if $clean {latexmk -c main.tex};
+}
+
 
 # Functions to help with the json
 # Requires gum, fzf, and vipe (moreutils) to work
