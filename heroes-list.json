@@ -134,5 +134,13 @@
     "respo": "Mon voisin de gauche ne défausse pas.",
     "discussion": "-",
     "id": 16
+  },
+  {
+    "name": "Le capitaliste",
+    "reveal": "-",
+    "power": "Quand je joue une carte (même grâce à cet effet), je peux ensuite\njouer à nouveau une carte.",
+    "respo": "À la fin de mon tour, je pioche forcément une carte (et une seule).",
+    "discussion": "-",
+    "id": 17
   }
 ]
